@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6F1FF4B85B048072473C3811C712854C6A7FD70B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5A29B29B9B8CFBCA28F072170B70F021754525D7" : 0,
+    "6F1FF4B85B048072473C3811C712854C6A7FD70B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CB374DA5-B61D-4C9C-B168-DBDE8A697251",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5A29B29B9B8CFBCA28F072170B70F021754525D7" : "..",
+    "6F1FF4B85B048072473C3811C712854C6A7FD70B" : "Magic8Ball\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Magic8Ball",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Magic8Ball\/Magic8Ball.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Uskinn\/Uber-SplashScreen-Tutorial.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5A29B29B9B8CFBCA28F072170B70F021754525D7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Uskinn\/Magic8Ball.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6F1FF4B85B048072473C3811C712854C6A7FD70B"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Magic8Ball" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ask something. Then shake the phone." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgH-qN-Dqk">
+                                <rect key="frame" x="71" y="28" width="224" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="SP9-Mb-5XK"/>
+                                    <constraint firstAttribute="width" constant="224" id="mOh-dk-HRh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magic 8 Ball" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mg-qc-p54">
+                                <rect key="frame" x="93" y="576" width="180" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="JfG-UC-0c0"/>
+                                    <constraint firstAttribute="height" constant="51" id="qfo-lD-YMP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="31"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="triangle-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="jU5-1H-WMt">
+                                <rect key="frame" x="38" y="184" width="299" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="299" id="Mjg-A3-Anb"/>
+                                    <constraint firstAttribute="height" constant="300" id="uFr-qo-1A2"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcc-s8-MNb">
+                                <rect key="frame" x="100.5" y="212" width="174" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="vYa-vx-rK2"/>
+                                    <constraint firstAttribute="width" constant="174" id="vmr-KW-lte"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jU5-1H-WMt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Su-An-8LO"/>
+                            <constraint firstItem="ZgH-qN-Dqk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="55" id="Ju5-vp-wO4"/>
+                            <constraint firstItem="ZgH-qN-Dqk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="PNh-5d-RHb"/>
+                            <constraint firstItem="9mg-qc-p54" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="77" id="Ybd-Ea-QL9"/>
+                            <constraint firstItem="Rcc-s8-MNb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cyB-ng-FOx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="9mg-qc-p54" secondAttribute="bottom" constant="40" id="dwd-SJ-afm"/>
+                            <constraint firstItem="Rcc-s8-MNb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-98" id="f7A-N7-Yqm"/>
+                            <constraint firstItem="jU5-1H-WMt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uSl-Kp-S52"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="answerLabel" destination="Rcc-s8-MNb" id="Daf-1L-NQM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.5" y="136.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="triangle-1.png" width="1152" height="1024"/>
+    </resources>
+</document>
